@@ -32,23 +32,30 @@
     </nav>    
     <!--Nav Bar End-->
     <!--Start Bootstrap Container-->
-<div class="Container">
+<div class="container" style="margin-top:2em;">
     <div class="row">
         <div class="col-md-3"></div>
         <div class="col-md-6">
-            <form>
-              <div class="form-group">
-                <label for="exampleInputEmail1">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-              </div>
-              <div class="form-group">
-                <label for="name">Full Name</label>
-                <input type="name" class="form-control" id="reservationName" placeholder="Type Full Name Here">
-              </div>
-              <button type="submit" id="reservationCheck" class="btn btn-primary">Reserve</button>
-            </form>
-        </div>
+                <div class="jumbotron text-white bg-dark mb-3">
+                    <h1>Make Reservations Here!</h1>
+                        <form>
+                          <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                          </div>
+                          <div class="form-group">
+                                <label for="phoneInput">Phone Number</label>
+                                <input type="phoneNumber" class="form-control" id="phoneInput" aria-describedby="phoneHelp" placeholder="Enter Phone Number (XXX)-XXX-XXXX">
+                              </div>
+                          <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="name" class="form-control" id="reservationName" placeholder="Type Full Name Here">
+                          </div>
+                          <button type="submit" id="reservationCheck" class="btn btn-primary">Reserve</button>
+                        </form>
+                </div>
+                    </div>
         <div class="col-md-3"></div>
     </div>
 
